@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+nav
+{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right , #00c6ff, #0072ff);
+}
+
+#wrapper
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#wrapper ul
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+#wrapper ul li
+{
+    list-style: none;
+    
+}
+
+#wrapper ul li a
+{
+    text-decoration: none;
+    padding: 1vw;
+    color: black;
+    transition: .9s all;
+}
+
+#wrapper ul li a:hover
+{
+    background-color: black;
+    color: white;
+    transition: .2s all;
+}
+
+.hero-section
+{
+    width: 100%;
+    height: 90vh;
+    background: url("assests/image/AJJU.jpg");
+    background-position:top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-op
+{width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+}
+
+.name
+{
+  color: white; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.name p
+{
+ font-size: 3vw;
+}
+
+.name h1
+{
+    font-size: 4vw;
+}
+
+.name h4
+{
+    font-size: 2vw;
+}
+
+.name div
+{
+  font-size: 1.5vw;
+  cursor: pointer;
+  color: white;
+  margin-top: 2vw;
+}
+
+.name a 
+{
+    padding: 1vw;
+    background-color: rgb(223, 49, 49);
+    color: white;
+    text-decoration: none; 
+}
+
+
+
+/* end Hero - Section */
+
+/*Start -  About - Section */
+
+.about-section
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #c94b4b, #4b134f);
+    padding: 5vw;
+    color: white;
+}
+
+#about-head
+{width: 100%;
+    height: 100%;
+    padding: 2vw;
+    text-align: center;
+}
+
+.about-bottom
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4vw;
+}
+
+.about-img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.about-img img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px;
+    background:linear-gradient(to right, #159957, #155799);
+    padding: 2vw;
+}
+
+#about-head p
+{
+    padding: 2vw;
+}
+
+#about-head p i
+{
+    font-size: 2em;
+    color: aquamarine;
+}
+
+.about-info
+{
+    text-align: center;
+}
+
+.about-info p , label
+{
+    font-size: 1.4rem;
+}
+
+/* End - About - Section */
+
+/* Skills - Section */
+
+.skills-section
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #614385, #516395);
+    color: white;
+}
+
+#skills h2
+{
+    background-color: aliceblue;
+    color: black;
+}
+
+#skills
+{
+  text-align: center;
+  font-size: 2rem;
+  padding: 4vw;
+}
+
+.skill p
+{
+    font-size: 2em;
+    color: black;
+}
+
+.skill span
+{
+  font-size: 1.2em;
+}
+
+/* End - Skills  */
+
+/* Start - Work - Exp */
+
+.work-exp
+{
+    width: 100%;
+    height: 100%;
+    background-color: #11998e;
+    margin-top: 2vw;;
+}
+
+.work-head
+{
+    text-align: center;
+    padding: 4vw;
+}
+
+.work-head h1
+{
+    background-color: aliceblue;
+    font-size: 3vw;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+}
+
+.work-head h4
+{
+    background-color: aliceblue;
+    font-size: 3vw;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+}
+
+.work-des
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 1vw;
+}
+
+.work-des .cdal
+{
+    gap: 50px;
+    background:linear-gradient(to right , #11998e, #38ef7d);
+    padding: 4vw;
+    margin: 2vw;
+}
+
+.work-des p
+{
+    font-size: 1.5rem;
+}
+
+.work-des a
+{
+    text-decoration: none;
+}
+
+/* Work - Experience - End*/
+
+/* Projects */
+
+.project-container
+{
+    width: 100%;
+    height: 100%;
+    background-color: #a78be9;
+    margin-top: 2vw;
+    padding: 2vw;
+}
+
+.project-head
+{
+    background-color: #4facfe;
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+}
+
+.project-head h1
+{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1vw;
+}
+
+/* Start - Education - Section */
+
+.contact-section
+{
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+    background-color: #4facfe;
+   
+}
+
+.contact-head
+{
+    padding: 2vw;
+    text-align: center;
+}
+
+form
+{
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+    background: linear-gradient(to right,  #d76d77, #ffaf7b);
+    border-radius: 10px;
+}
+
+
+
+form input
+{
+    text-align: center;
+    width: 100%;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+form textarea
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+button
+{
+    padding: .4vw 2vw;
+}
+
+.social-media
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 2vw;
+}
+
+.social-head
+{
+    width: 100%;
+    height: 100%;
+    padding: 2vw;
+    text-align: center;
+    background-color: #38ef7d;
+    border-radius: 10px;
+}
+
+.social-link
+{
+    font-size: 3vw;
+}
+
+.social-link a
+{
+    color: black;
+}
